@@ -7,7 +7,7 @@ import org.apache.spark.streaming.kafka010.ConsumerStrategies.Subscribe
 import org.apache.spark.streaming.kafka010.KafkaUtils
 import org.apache.spark.streaming.kafka010.LocationStrategies.PreferConsistent
 import org.apache.spark.streaming.{Seconds, StreamingContext}
-import org.elasticsearch.spark.streaming.sparkDStreamFunctions
+//import org.elasticsearch.spark.streaming.sparkDStreamFunctions
 
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
@@ -52,7 +52,7 @@ object EMTElasticApp {
     val dtf = DateTimeFormatter.ofPattern("yyyy.MM.dd")
 
     val date= LocalDate.now().format(dtf)
-    bikes.saveToEs("emt-data-"+date)
+    //bikes.saveToEs("emt-data-"+date)
 
     ssc.start()
     ssc.awaitTermination()
