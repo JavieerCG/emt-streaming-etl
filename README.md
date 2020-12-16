@@ -4,7 +4,7 @@ En este README describiremos varias instalaciones y configuraciones de los compo
 
 ### Arquitectura
 
-![Arquitectura](https://github.com/JavieerCG/emt-streaming-etl/images/arquitectura.png)
+![Arquitectura](https://github.com/JavieerCG/emt-streaming-etl/blob/main/images/arquitectura.png)
 
 ## Apache NiFi
 
